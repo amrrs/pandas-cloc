@@ -1,6 +1,18 @@
 # pandas-cloc
 Programming Languages in Pandas Project
 
+Steps to reproduce:
+
++ Clone [`pandas`](https://github.com/pandas-dev/pandas) in your local machine
++ Make sure you've [cloc](github.com/AlDanial/cloc) installed 
++ Run the below `bash` statement (inside `pandas` directory)
+
+```sh
+cloc . --out ~/Downloads/pandas.txt
+```
++ Use `pandas.txt` in the `R` script to generate the plot
+
+
 Raw output of `cloc` 
 
 ```
@@ -38,3 +50,4 @@ SUM:                          1193         104980         110375         342387
 ### Courtesy
 
 + [cloc](github.com/AlDanial/cloc)
++ [`tidyverse`](https://github.com/tidyverse/)
