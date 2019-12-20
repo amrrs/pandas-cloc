@@ -1,7 +1,7 @@
 # pandas-cloc
 Programming Languages in Pandas Project
 
-Steps to reproduce:
+### Steps to reproduce:
 
 + Clone [`pandas`](https://github.com/pandas-dev/pandas) in your local machine
 + Make sure you've [cloc](github.com/AlDanial/cloc) installed 
@@ -13,7 +13,7 @@ cloc . --out ~/Downloads/pandas.txt
 + Use `pandas.txt` in the `R` script to generate the plot
 
 
-Raw output of `cloc` 
+### Raw output of `cloc` 
 
 ```
 1278 text files.
